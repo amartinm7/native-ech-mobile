@@ -1,8 +1,6 @@
 import Vue from 'nativescript-vue'
 import App from './components/App'
 import VueDevtools from 'nativescript-vue-devtools'
-Vue.registerElement('Carousel', () => require('nativescript-carousel').Carousel);
-Vue.registerElement('CarouselItem', () => require('nativescript-carousel').CarouselItem);
 
 if(TNS_ENV !== 'production') {
   Vue.use(VueDevtools)
