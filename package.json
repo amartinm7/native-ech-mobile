@@ -17,6 +17,7 @@
     "nativescript-toasty": "^3.0.0-alpha.2",
     "nativescript-vue": "^2.8.1",
     "nativescript-vue-devtools": "^1.4.0",
+    "nativescript-youtube-parser": "^2.0.1",
     "vuex": "^3.5.1"
   },
   "devDependencies": {

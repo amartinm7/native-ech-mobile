@@ -1,13 +1,15 @@
 <template>
-    <Page>
-        <ActionBar title="Estrenos Cine Hoy"/>
-    </Page>
+  <Page ref="page" class="page">
+      <StackLayout>
+          <WebView src="https://www.estrenoscinehoy.com/es" height="100%"/>
+      </StackLayout>
+  </Page>
 </template>
-
 <script >
   export default {
     data() {
       return {
+        hello: "hi there!"
       }
     },
     mounted() {
@@ -18,7 +20,7 @@
 
 <style scoped>
     ActionBar {
-        background-color: #53ba82;
+        text-align: center;
         color: #ffffff;
     }
 
